@@ -32,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/BelayI2E/AmramAcadamy/issues"
   },
-  "homepage": "https://github.com/BelayI2E/AmramAcadamy#readme"
+  "homepage": "https://github.com/BelayI2E/AmramAcadamy#readme",
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
 }
