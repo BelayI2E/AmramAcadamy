@@ -16,4 +16,6 @@ require('laravel-elixir-vue-2');
 elixir((mix) => {
     mix.sass('app.scss')
        .webpack('app.js');
+       mix.copy('node_modules/font-awesome/fonts/','public/fonts'); //copy font awesome to public/fonts from moudles
+
 });
