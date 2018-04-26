@@ -34,7 +34,30 @@ class AccountController extends Controller
      */
     public function store(Request $request)
     {
-        //
+      $this->validate($request,[
+        'first_name'=>'required |max:100',
+        'last_name'=>'required | max:100',
+        'email'=>'required | email|max:150',
+        'phone'=>'required |numeric|max:30',
+        'username'=>'required',
+        'password'=>'required',
+        'birth_date'=>'required|before:date',
+        'sex'=>'required | max:6',
+        'grade'=>'required'
+
+      ]);
+      $account= new Account();
+      $account->first_name =  $request->first_name;
+      $account->last_name=   $request->last_name;
+      $account->email=       $request->email;
+      $account->phone=       $request->phone;
+      $account->username =   $request->username;
+      $account->password=    $request->password;
+      $account->birth_date=  $request->birth_date;
+      $account->sex =        $request->sex;
+      $account->grade=       $request->grade;
+      $account->save();
+
     }
 
     /**
