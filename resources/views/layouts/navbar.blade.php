@@ -38,12 +38,6 @@
          <form method="post" action="/login">
 
          <div class="form-inline my-2 my-lg-0">
-           {{-- <div class="form-group row pr-2">
-
-             <label for="example-text-input" class="col-3 col-form-label"><i class="fa fa-envelope pr-2" aria-hidden="true"></i></label>
-             <div class="col-9">
-               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email@example.com">                        </div>
-           </div> --}}
 
            <div class="input-group mb-2 mr-sm-2 mb-sm-0 pr-2">
             <div class="input-group-addon"><i class="fa fa-envelope pr-2" aria-hidden="true"></i></div>

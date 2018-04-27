@@ -34,7 +34,29 @@ class ProfileController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request,[
+          'profile_pic'=>'nullable',
+          'background_pic'=>'nullable',
+          'nick_name'=>'nullable',
+          'motto'=>'nullable',
+          'country'=>'required',
+          'region'=>'required',
+          'city'=>'required',
+          'school_name'=>'required',
+
+
+        ]);
+
+        $profile= new Profile();
+        $profile->profile_pic= $request->profile_pic;
+        $profile->background_pic=$request->background_pic;
+        $profile->nick_name=$request->nick_name;
+        $profile->motto=$request->motto;
+        $profile->country=$request->country;
+        $profile->region=$request->region;
+        $profile->city=$request->city;
+        $profile->school_name=$request->school_name;
+        $profile->save();
     }
 
     /**
