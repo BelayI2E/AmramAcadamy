@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'MuluBerhan') }}</title>
 
     <!-- Styles -->
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/jumbotron/">
@@ -26,24 +26,41 @@
        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
        </button>
-       <a class="navbar-brand" href="#">Logo-Logo</a>
+       <a class="navbar-brand" href="#"><i class="fa fa-sun-o" aria-hidden="true"></i> MuluBerhan</a>
 
        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
          <ul class="navbar-nav mr-auto">
-           <li class="nav-item active">
+           {{-- <li class="nav-item active">
              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-           </li>
+           </li> --}}
          </ul>
 
+         <form method="post" action="/login">
+
          <div class="form-inline my-2 my-lg-0">
-             <a class="nav-link" href="#">Login <i class="fas fa-sign-in-alt"></i></a>
-             <a class="nav-link" href="#">Register <span class="sr-only">(current)</span></a>
+           {{-- <div class="form-group row pr-2">
+
+             <label for="example-text-input" class="col-3 col-form-label"><i class="fa fa-envelope pr-2" aria-hidden="true"></i></label>
+             <div class="col-9">
+               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email@example.com">                        </div>
+           </div> --}}
+
+           <div class="input-group mb-2 mr-sm-2 mb-sm-0 pr-2">
+            <div class="input-group-addon"><i class="fa fa-envelope pr-2" aria-hidden="true"></i></div>
+            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="email@example.com">
+           </div>
+
+           <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+            <div class="input-group-addon"><i class="fa fa-unlock-alt pr-2" aria-hidden="true"></i></div>
+            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Password">
+          </div>
+
+          <button type="submit" class="btn btn-md btn-primary">Login</button>
 
          </div>
-         {{-- <form class="form-inline my-2 my-lg-0">
-           <input class="form-control mr-sm-2" type="text" placeholder="Search">
-           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-         </form> --}}
+
+         </form>
+
        </div>
      </nav>
 <div class="container-fluid">
