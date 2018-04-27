@@ -9,21 +9,7 @@
         <h2 id="our_moto"><b><i class="fa fa-group" style="font-size:38px"></i>Associate with Acadamic Community and descover your future world!</b></h2>
 
       </div>
-      <div class="row" id="my_welcome_page">
-      <div class="col-md-6">
-        <h2>Login Please</h2>
-        <label>username</label>
-        <input type="text" name="username"/>
-        <label>password</label>
-        <input type="text" name="password"/>
-        <button type="submit">Login</button>
-      </div>
-      <div class="col-md-6">
-        <div id="new_registration">
-        <h2 >Create New Account</h1>
-        </div>
-      </div>
-      </div>
+      
     </div
 
     <div class="container">
