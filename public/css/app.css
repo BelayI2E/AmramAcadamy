@@ -8,6 +8,13 @@
 body {
   padding-top: 2rem;
 }
+.motto{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  font-style: italic;
+
+}
 
 .display-3 {
   height: 500px;

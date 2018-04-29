@@ -7,10 +7,17 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h2>Muluerhan Online Acadamy education platform</h2>
-            <!-- bad way of styling ... -->
-            <h5>Associate with students of your batch and descover your future world</h5>
-            <p><a class="btn btn-primary btn-md" href="#" role="button">Learn more &raquo;</a></p>
+            <h2>MuluBerhan Online Acadamy education platform</h2>
+
+              <div class="col-md-10">
+
+                 <p class="motto">Associate with students of your batch and descover your future world</p>
+                 <p class="motto">Ask questions and get excellent answers from Seniors, Teachers and Acadamic pros</p>
+                 <p class="motto">Prepare for National exams with international mind set, confidence and competence</p>
+                 <p class="motto">Get all the resources you need to create your future</p>
+
+              </div>
+
           </div>
           <div class="col-md-6">
             <div class="row">
