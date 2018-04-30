@@ -17,13 +17,10 @@ class CreateAccountsTable extends Migration
             $table->increments('id');
             $table->string('first_name',100);
             $table->string('last_name',100);
-            $table->string('email',150);
-            $table->string('phone',30);
-            $table->string('username');
+            $table->date('date');
+            $table->string('email',150)->unique();
             $table->string('password');
-            $table->date('birth_date');
-            $table->char('sex',6);
-            $table->string('grade');
+            $table->string('conf_password');
             $table->timestamps();
         });
     }

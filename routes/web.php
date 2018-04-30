@@ -12,7 +12,8 @@
 */
 
 Route::get('/', 'WelcomeController@index');
-
+Route::get('profile','AccountController@index');
+Route::post('/profile','AccountController@store')->name('profile');
 Auth::routes();
 
 //This means
@@ -29,4 +30,4 @@ Auth::routes();
    // $this->get('password/reset/{token}', 'Auth\ResetPasswordController@showResetForm')->name('password.reset');
    // $this->post('password/reset', 'Auth\ResetPasswordController@reset');
 
-Route::get('/home', 'HomeController@index');
+//Route::get('/home', 'HomeController@index');

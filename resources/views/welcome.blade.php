@@ -7,14 +7,15 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h2>MuluBerhan Online Acadamy education platform</h2>
+            <h2 id ="mulu_birhan">MuluBerhan Online Acadamic Platform </h2>
 
               <div class="col-md-10">
 
-                 <p class="motto">Associate with students of your batch and descover your future world</p>
-                 <p class="motto">Ask questions and get excellent answers from Seniors, Teachers and Acadamic pros</p>
-                 <p class="motto">Prepare for National exams with international mind set, confidence and competence</p>
-                 <p class="motto">Get all the resources you need to create your future</p>
+                 <p class="motto"><i class="fa fa-users"></i>Connect With Students of your batch and descover your future world</p>
+
+                 <p class="motto"><i class="fa fa-question-circle"></i>Ask questions and get excellent answers from Seniors, Teachers and Acadamic pros</p>
+                 <p class="motto"><i class="fa fa-globe"></i>Prepare for National exams with international mindset and competence</p>
+                 <p class="motto"><i class="fa fa-book"></i>Get all  you need to succeed in your acadamic life</p>
 
               </div>
 
@@ -28,45 +29,46 @@
 
               <div class="col-md-10">
 
-                  <form method="post" action="/Register">
+              <form method="post" action="{{ url('/profile') }}">
+                    {{ csrf_field() }}
                     <fieldset class="form-group">
                       <legend>Sign Up Now</legend>
 
                       <div class="form-group row">
                         <label for="example-text-input" class="col-3 col-form-label">First Name</label>
                         <div class="col-9">
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First Name">                        </div>
+                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First Name" name="first_name">                        </div>
                       </div>
 
                       <div class="form-group row">
                         <label for="example-text-input" class="col-3 col-form-label">Last Name</label>
                         <div class="col-9">
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Last Name">                        </div>
+                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Last Name" name="last_name">                        </div>
                       </div>
 
                       <div class="form-group row">
                         <label for="example-date-input" class="col-3 col-form-label">Date of birth</label>
                         <div class="col-9">
-                          <input class="form-control" type="date" value="2011-08-19" id="example-date-input">
+                          <input class="form-control" type="date" value="2011-08-19" id="example-date-input" name="date">
                         </div>
                       </div>
 
                       <div class="form-group row">
                         <label for="example-text-input" class="col-3 col-form-label">Email</label>
                         <div class="col-9">
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email@example.com">                        </div>
+                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email@example.com" name="email">                        </div>
                       </div>
 
                       <div class="form-group row">
                         <label for="example-text-input" class="col-3 col-form-label">Password</label>
                         <div class="col-9">
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter password">                        </div>
+                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter password" name="password">                        </div>
                       </div>
 
                       <div class="form-group row">
                         <label for="example-text-input" class="col-3 col-form-label">Confirm password</label>
                         <div class="col-9">
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter password">                        </div>
+                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter password" name="conf_password">                        </div>
                       </div>
 
                       <div class="form-group row">
@@ -74,6 +76,7 @@
                         <div class="col-9">
                           <button type="submit" class="btn btn-primary btn-block">Register</button>
                       </div>
+
 
                       <div class="col-md-1">
 
@@ -90,24 +93,4 @@
 
       </div>
     </div
-
-    <div class="container">
-     <!-- Example row of columns -->
-     <div class="row">
-       <div class="col-md-4">
-         <h2><i class="fa fa-asterisk" style="font-size:40px;color:green;position:relative;left:150px;"></i></h2>
-         <p><b class="our_cores">Ask questions and get excellent answers from Seniors, Teachers and Acadamic pros</b></p>
-
-       </div>
-       <div class="col-md-4">
-         <h2><i class="fa fa-asterisk" style="font-size:40px; color:green;position:relative;left:150px;"></i></h2>
-         <p><b class="our_cores">Prepare for National exams with international mind set, confidence and competence</b> </p>
-
-      </div>
-       <div class="col-md-4">
-         <h2><i class="fa fa-asterisk" style="font-size:40px; color:green;position:relative;left:150px;"></i></h2>
-         <p><b class="our_cores">Get all the resources you need to create your future</b></p>
-
-       </div>
-     </div>
 @endsection

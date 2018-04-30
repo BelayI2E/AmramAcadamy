@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Account;
 
 class AccountController extends Controller
 {
@@ -13,7 +14,7 @@ class AccountController extends Controller
      */
     public function index()
     {
-        //
+      return view('profile');
     }
 
     /**
@@ -35,28 +36,25 @@ class AccountController extends Controller
     public function store(Request $request)
     {
       $this->validate($request,[
-        'first_name'=>'required |max:100',
+        'first_name'=>'required | max:100',
         'last_name'=>'required | max:100',
-        'email'=>'required | email|max:150',
-        'phone'=>'required |numeric|max:30',
-        'username'=>'required',
-        'password'=>'required',
-        'birth_date'=>'required|before:date',
-        'sex'=>'required | max:6',
-        'grade'=>'required'
+        'date'=>'required | date',
+        'email'=>'required | email | max:155',
+        'password'=>'required | max:200',
+        'conf_password'=>'required | max:200'
 
       ]);
+
+
       $account= new Account();
-      $account->first_name =  $request->first_name;
+       $account->first_name =  $request->first_name;
       $account->last_name=   $request->last_name;
+       $account->date=       $request->date;
       $account->email=       $request->email;
-      $account->phone=       $request->phone;
-      $account->username =   $request->username;
-      $account->password=    $request->password;
-      $account->birth_date=  $request->birth_date;
-      $account->sex =        $request->sex;
-      $account->grade=       $request->grade;
-      $account->save();
+       $account->password=       $request->password;
+       $account->conf_password =   $request->conf_password;
+       $account->save();
+       return redirect()->action('AccountController@index');
 
     }
 
