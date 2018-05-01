@@ -13,6 +13,7 @@
 
 Route::get('/', 'WelcomeController@index');
 Route::get('profile','AccountController@index');
+Route::get('/profile/course','AccountController@create')->name('course');
 Route::post('/profile','AccountController@store')->name('profile');
 Auth::routes();
 

@@ -31,14 +31,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="/images/logo.png" width="40" height="40" class="img-responsive pt-2" alt="Generic placeholder thumbnail"  align="left">MuluBerhan</a>
+          <a class="navbar-brand" href="#"><img src="/images/logo.png" width="40" height="40" class="img-responsive pt-2" alt="Generic placeholder thumbnail"  align="left" >MuluBerhan</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">My Courses</a></li>
             <li><a href="#">Settings</a></li>
+            <li><a href="#">Profile</a></li>
             <li><a href="#">Help</a></li>
-            <li><a href="#">Log out</a></li>
           </ul>
           <form class="navbar-form navbar-right">
             <input type="text" class="form-control" placeholder="Search...">
@@ -70,60 +70,60 @@
           </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-8 col-md-offset-2 main">
-          <h1 class="page-header">My Courses</h1>
+          <h1 class="page-header">Course Name</h1>
 
           <div class="row placeholders">
             <div class="col-xs-6 col-sm-3 placeholder">
-            <a href="http://127.0.0.1:8000/profile/course">  <img src="/images/course.png" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail" ></a>
-              <h4>Course Name</h4>
+            <a href="http://127.0.0.1:8000/profile/course">  <img src="/images/book.png" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail"></a>
+          <h4>  Chapter 1</h4>
             </div>
             <div class="col-xs-6 col-sm-3 placeholder">
-        <a href="http://127.0.0.1:8000/profile/course">      <img src="/images/course.png" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail"></a>
-            <h4>Course Name</h4>
+        <a href="#">      <img src="/images/book.png" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail"></a>
+            <h4>Chapter 2</h4>
             </div>
             <div class="col-xs-6 col-sm-3 placeholder">
-            <a href="http://127.0.0.1:8000/profile/course">     <img src="/images/course.png" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail"></a>
-            <h4>Course Name</h4>
+            <a href="#">     <img src="/images/book.png"  width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail"></a>
+              <h4>Chapter 3</h4>
             </div>
 
               <div class="col-xs-6 col-sm-3 placeholder">
-          <a href="http://127.0.0.1:8000/profile/course">      <img src="/images/course.png" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail"></a>
-              <h4>Course Name</h4>
+          <a href="#">      <img src="/images/book.png" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail"></a>
+                <h4>Chapter 4</h4>
               </div>
               <div class="row placeholders">
                 <div class="col-xs-6 col-sm-3 placeholder">
-                <a href="http://127.0.0.1:8000/profile/course">  <img src="/images/course.png" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail"></a>
-                  <h4>Course Name</h4>
+                <a href="#">  <img src="/images/book.png" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail"></a>
+                  <h4>Chapter 5</h4>
                 </div>
                 <div class="col-xs-6 col-sm-3 placeholder">
-            <a href="http://127.0.0.1:8000/profile/course">      <img src="/images/course.png" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail"></a>
-                <h4>Course Name</h4>
+            <a href="#">      <img src="/images/book.png" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail"></a>
+                  <h4>Chapter 6</h4>
                 </div>
                 <div class="col-xs-6 col-sm-3 placeholder">
-                <a href="http://127.0.0.1:8000/profile/course">     <img src="/images/course.png" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail"></a>
-                <h4>Course Name</h4>
+                <a href="#">     <img src="/images/book.png" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail"></a>
+                <h4>Chapter 7</h4>
                 </div>
 
                 <div class="row placeholders">
                   <div class="col-xs-6 col-sm-3 placeholder">
-                  <a href="http://127.0.0.1:8000/profile/course">  <img src="/images/course.png"  width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail"></a>
-                  <h4>Course Name</h4>
+                  <a href="#">  <img src="/images/book.png"  width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail"></a>
+                  <h4>Chapter 8</h4>
                   </div>
                   <div class="col-xs-6 col-sm-3 placeholder">
-              <a href="http://127.0.0.1:8000/profile/course">      <img src="/images/course.png"  width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail"></a>
-                  <h4>Course Name</h4>
+              <a href="#">      <img src="/images/book.png"  width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail"></a>
+                    <h4>Chapter 9</h4>
                   </div>
               <div class="col-xs-6 col-sm-3 placeholder">
-              <a href="http://127.0.0.1:8000/profile/course">     <img src="/images/course.png"  width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail"></a>
-                <h4>Course Name</h4>
+              <a href="#">     <img src="/images/book.png"  width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail"></a>
+                <h4>Chapter 10</h4>
               </div>
             <div class="col-xs-6 col-sm-3 placeholder">
-              <a href="http://127.0.0.1:8000/profile/course">   <img src="/images/course.png"  width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail"></a>
-            <h4>Course Name</h4>
+              <a href="#">   <img src="/images/book.png"  width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail"></a>
+              <h4>Chapter 11</h4>
             </div>
             <div class="col-xs-6 col-sm-3 placeholder">
-              <a href="http://127.0.0.1:8000/profile/course">   <img src="/images/course.png"  width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail"></a>
-            <h4>Course Name</h4>
+              <a href="#">   <img src="/images/book.png"  width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail"></a>
+            <h4>Chapter 12</h4>
             </div>
           </div>
 

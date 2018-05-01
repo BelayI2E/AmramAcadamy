@@ -24,7 +24,11 @@ body {
 .navbar-fixed-top {
   border: 0;
 }
-
+#dashboard_header{
+  color:green;
+  background:   #1abc9c;;
+  font-size: 20px;
+}
 /*
  * Sidebar
  */
